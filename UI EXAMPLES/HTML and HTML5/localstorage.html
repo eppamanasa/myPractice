@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>local</title>
+</head>
+<body>
+<div id="na"></div>
+<div id="ae"></div>
+
+<script>
+localStorage.setItem('name','manasa');
+document.getElementById("na").innerHTML = localStorage.getItem('name');
+
+localStorage.setItem('cust1':'manasa','cust2':'venu');
+document.getElementById("ae").innerHTML=localStorage.getItem('cust2');
+
+</script>
+</body>
+</html>sa
